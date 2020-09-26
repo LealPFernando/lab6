@@ -1,0 +1,23 @@
+
+ul{
+    padding-left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+li{
+    font-size: larger;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    border: solid grey;
+    border-width: 1px;
+    list-style-type: none;
+    width: 80%;
+    height: 75px;
+    justify-content: space-around;
+    font-style: italic;
+
+}
+.line{
+    text-decoration: line-through;
+}
