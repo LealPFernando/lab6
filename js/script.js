@@ -8,7 +8,7 @@ $("#lista").on("click", ".butc", function(e){
 $("#lista").on("click", ".butd", function(e){
     e.preventDefault()
     console.log("D")
-    $(this).parent().parent().parent().remove()
+    $(this).parent().parent().remove()
 })
 
 $("#button").on("click", function(e){
